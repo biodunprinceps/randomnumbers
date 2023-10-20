@@ -1,0 +1,29 @@
+<main>
+  <h2>Customer Referral Promo Draw</h2>
+
+  <span *ngIf="referral_name" [@inOutAnimation] id="ranNum"
+    style="text-align: center;">{{ referral_name ? referral_name : 'N/A' | titlecase}}</span>
+  <span *ngIf="!referral_name" id="ranNum" style="text-align: center;">N/A</span>
+
+  <div *ngIf="referral_name" [@inOutAnimation] style="font-size: 35px;">
+    <!-- <p style="margin-bottom:20px; margin-top: 10px; text-align: center;">Marketer: {{ marketer | titlecase }}</p> -->
+
+
+    <div style="margin:20px; display: flex;">
+      <p style="margin-bottom:20px; margin-right: 10px;">Referral Code: {{ referral_code }}</p>
+      <p>Telephone: {{ telephone }}</p>
+    </div>
+  </div>
+
+  <!-- <span id="ranNum" data-target="number">{{ number }}</span> -->
+  <div style="display: flex; margin-top: 10px;">
+    <button id="generate" style="margin-right: 20px;" (click)="generateRandNumber()">Get Promo Code
+      <div *ngIf="spinLoader" class="loader"></div>
+
+    </button>
+    <button id="generatedd" (click)="clear()">Clear</button>
+  </div>
+
+
+
+</main>

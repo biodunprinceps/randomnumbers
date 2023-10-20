@@ -1,1 +1,180 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M541.1807377221464 331.50350349619225L529.8547707802104 202.04710897051763 411.7243431964718 342.82947043812834z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1357.6359213889368 452.0875892631124L1236.0177317468442 350.037811189984 1133.9679536737158 471.65600083207664 1255.5861433158084 573.7057789052051z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M463.36 193.35 a124.19 124.19 0 1 0 248.38 0 a124.19 124.19 0 1 0 -248.38 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1187.56 547.93 a167.79 167.79 0 1 0 335.58 0 a167.79 167.79 0 1 0 -335.58 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1367.262%2c557.123C1405.803%2c557.499%2c1448.649%2c554.98%2c1469.448%2c522.53C1491.462%2c488.184%2c1483.251%2c443.67%2c1462.487%2c408.555C1442.132%2c374.133%2c1407.228%2c351.101%2c1367.262%2c349.719C1324.695%2c348.247%2c1281.221%2c364.676%2c1259.901%2c401.548C1238.561%2c438.454%2c1244.26%2c485.48%2c1268.474%2c520.568C1289.848%2c551.541%2c1329.632%2c556.756%2c1367.262%2c557.123' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1374.78%2c533.297C1397.895%2c532.523%2c1418.055%2c517.923%2c1428.616%2c497.347C1438.326%2c478.43%2c1433.352%2c456.97%2c1423.678%2c438.034C1412.759%2c416.663%2c1398.778%2c392.164%2c1374.78%2c391.975C1350.616%2c391.785%2c1336.237%2c416.113%2c1324.532%2c437.254C1313.33%2c457.485%2c1303.599%2c480.682%2c1314.319%2c501.172C1325.658%2c522.845%2c1350.334%2c534.115%2c1374.78%2c533.297' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M73.97489651296384 640.870291445857L100.63491558800011 515.4447629861712-51.45063194672191 614.2102723708207z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M110.95814521001917 297.9875870732215L196.50300546631996 276.658857912019 175.17427630511753 191.11399765571824 89.6294160488167 212.4427268169207z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1280.432459451578 452.2456935381078L1131.0735767032602 441.80150303207336 1120.6293861972256 591.1603857803914 1269.9882689455437 601.6045762864258z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M815.6796859549918 348.6518305055806L783.778921861737 280.2404211380528 697.1121898570726 362.2972719616989z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M433.93207317237085 88.18839156806493L565.6272585599193 158.21196374303133 635.6508307348857 26.516778355482884 503.9556453473373-43.50679381948353z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M715.5433509202169 469.2389816761594L596.8526956148525 337.1667495101112 546.3171171553382 483.93272618187245z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1011.5178003246338 380.86998690218684L1015.8867728700544 255.7589825054149 890.7757684732825 251.3900099599942 886.4067959278618 376.5010143567661z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  font-size: 125%;
+  line-height: 1;
+  height: 100vh;
+  color: white;
+  font-family: 'Karla', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+// main > *+* {
+//   margin-top: .75rem;
+// }
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+main h2{
+  background: #003366;
+background: linear-gradient(to right, #fff 0%, #F56B2A 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 800;
+}
+button {
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  line-height: 1;
+  padding: .75rem;
+  border-radius: 5px;
+
+  background: #f56b2a;
+  color: white;
+  border: none;
+
+  cursor: pointer;
+  transition: all .5s ease-out;
+}
+
+button:hover {
+  background: #f56a2a96;
+  color: white;
+}
+
+button:focus, button:active {
+  outline: none;
+}
+
+button:active {
+  background: orangered;
+}
+
+// #ranNum {
+//   font-size: 18em;
+//   margin-bottom: 20px;
+// }
+#ranNum {
+  font-size: 7em;
+  // margin-bottom: 20px;
+}
+
+h2 {
+  color: lightgreen;
+}
+
+@media (max-width: 30em) {
+
+  body {
+    font-size: 100%;
+    text-align: center;
+    }
+  main {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  button {
+    font-size: 1.5em;
+    padding: .35em;
+  }
+
+  #ranNum {
+    font-size: 5em;
+  }
+};
+
+
+#generate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  font-size: 10px;
+  // margin: 50px auto;
+  text-indent: -9999em;
+  width: 3em;
+  height: 3em;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  display: inline-flex;
+  border-radius: 50%;
+  background: #ffffff;
+  background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #ffffff;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loader:after {
+  background: red;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 5s;
+}
+.animate__animated.animate__fadeIn {
+  --animate-duration: 5s;
+}
+
